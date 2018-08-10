@@ -1,6 +1,6 @@
 
 
-waldayu.transducers["gitksan_compare"] = (function() {
+waldayu.transducers["okinoerabu_compare"] = (function() {
     var correspondences = {'M': " 'm", 'J': " 'j", 'K': " 'k"};
     var keys = ['M', 'J', 'K'];
     var regex = new RegExp("(" + keys.join('|') + ")", 'g');
@@ -11,10 +11,10 @@ waldayu.transducers["gitksan_compare"] = (function() {
     };
 })();var config = {
     "L1": {
-        "name": "Gitksan",
+        "name": "Okinoerabu",
         "underlying": "",
-        "compare": "gitksan_compare",
-        "lettersInLanguage" : ['a', 'aa', 'i', 'ii', 'u', 'uu', 'e', 'ee', 'o', 'oo', 'ka', 'ga', 'ki', 'gi', 'kja', 'gja', 'ku', 'gu', 'ke', 'ge', 'ko', 'go', 'sa', 'za', 'si', 'zi', 'sja', 'zja', 'su', 'zu', 'sju', 'zju', 'se', 'ze', 'so', 'zo', 'ta', 'da', 'ci', 'tsu', 'te', 'de', 'to', 'do', 'ti', 'di', 'tu', 'du', 'na', 'ni', 'nja', 'nu', 'nju', 'ne', 'no', 'njo', 'ha', 'ba', 'hi', 'bi', 'hja', 'bja', 'hju', 'bju', 'hjo', 'bjo', 'fu', 'bu', 'he', 'be', 'ho', 'bo', 'fa', 'ma', "'ma", 'mi', 'mja', "'mja", 'mju', 'mjo', 'mu', "'mu", 'me', "'me", 'mo', "'mo", 'ja', "'ja", 'ji', "'ji", 'ju', "'ju", 'je', "'je", 'jo', "'jo", 'ra', 'ri', 'rja', 'rju', 'rjo', 'ru', 're', 'ro', 'wa', 'wu', 'wo', "'wa", "'wu", "'wo", 'N']
+        "compare": "okinoerabu_compare",
+        "lettersInLanguage" : ['あ', 'ああ', 'い', 'いい', 'う', 'うう', 'え', 'ええ', 'お', 'おお', 'か', 'き', 'く', 'け', 'こ', 'さ', 'し', 'す', 'せ', 'そ', 'た', 'ち', 'つ', 'て', 'と', 'てぃ', 'とぅ', 'な', 'に', 'ぬ', 'ね', 'の', "'な", '‘に', '‘ぬ', '‘ね', '‘の', 'は', 'ひ', 'ふ', 'へ', 'ほ', 'ふぁ', 'ま', 'み', 'む', 'め', 'も', '‘ま', '‘み', ",'む", '‘め', '‘も', 'や', 'い゛', 'ゆ', 'いぇ', 'よ', "'や", "'い゛", '‘ゆ', '‘いぇ', '‘よ', 'ら', 'り', 'る', 'れ', 'ろ', 'わ', 'をぅ', 'を', '‘わ', '‘をぅ', '‘を', 'ん']
     },
     "L2": {
         "name": "English",
